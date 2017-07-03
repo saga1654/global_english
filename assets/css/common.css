@@ -188,6 +188,11 @@ h6,
 .font-w700 {
   font-weight: 700 !important;
 }
+
+.font-s11 {
+  font-size: 11px !important;
+}
+
 .font-s12 {
   font-size: 12px !important;
 }
@@ -666,6 +671,7 @@ a.bg-gray-lighter:focus {
 }
 
 
+.footer { padding: 20px 0px;}
 .bg-footer { background-color:#2c2d2c }
 
 .btn {
