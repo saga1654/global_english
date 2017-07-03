@@ -10,8 +10,8 @@ body {
   /*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family: "Nanum Gothic", sans-serif;
   font-size: 14px;
-  color: #646464;
-  background-color: #f5f5f5;
+  color: #231f20;
+  background-color: #fffff;
 }
 .no-focus *:focus {
   outline: 0 !important;
@@ -5045,7 +5045,7 @@ a.list-group-item:focus {
   overflow-x: hidden;
 }
 #main-container {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 .content {
   margin: 0 auto;
