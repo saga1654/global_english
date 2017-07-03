@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+
+#wrap {letter-spacing:-1px;height:100%; width:100%}
+p{ line-height:30px;}
+.visual-header{padding-top: 50px;}
+
+/* color */
+
+.color00a0e9{color:#00a0e9;}
+
+/* 배경이미지 및 해당 페이지 이미지 속성*/
+.col-main1 {
+     background:url(../../img/ad_visual_01_bg.png) no-repeat; /*이미지의 위치경로*/
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 100%;
+ }
+.col-main3 {
+    background:url(../../img/ad_visual_03_bg.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+}
+.col-main4 {
+    background-color:#3f3b3a;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+}
+.col-main5 {
+    background:url(../../img/ad_visual_05_bg.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+}
+.col-main6 {
+    background-color:#003a4a ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+}
+.col-main8 {
+    background-color:#005996 ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+}
+.col-main9 {
+    background:url(../../img/ad_visual_09_bg.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+}
+
+
+/* 각 txt 속성 */
+.txt1 {padding: 30px 0 0 30px;}
+.txt1-2 {padding: 150px 30px 30px 30px;}
+.txt2 {padding: 30px 30px 30px 30px;}
+.txt2-1 {padding: 0px 30px 30px 30px;}
+.txt4 {padding: 30px 30px 30px 30px;}
+.txt4-1 {padding: 60px 10px 10px 10px;}
+.txt6 {padding: 60px 30px 30px 30px;}
+.txt6-1 {padding: 0px 30px 30px 30px;}
+
+.txt9 {padding: 80px 30px 10px 30px;}
+
+/* 페이스북 바로가기 버튼*/
+
+.btn-facebook {
+    color:#fff;
+    background-color: #2d4373;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/*푸터*/
+
+#footer {background-color:#2e2c2b;color:#FFFFFF;font-size:14px;padding:14px 0;text-align:center;}
+#footer .address {line-height:1em;}
+.copyright {font-size:0.3em;}
