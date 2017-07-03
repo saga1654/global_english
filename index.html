@@ -1,10 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 9]>         <html class="ie9 no-focus"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-focus"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+
+    <title>글로벌 영어</title>
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" id="css-main" href="assets/css/common.css">
+
+
+    <script src="assets/js/core/jquery.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+    <script src="assets/js/core/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/core/jquery.scrollLock.min.js"></script>
+    <script src="assets/js/core/jquery.appear.min.js"></script>
+    <script src="assets/js/core/jquery.countTo.min.js"></script>
+    <script src="assets/js/core/jquery.placeholder.min.js"></script>
+    <script src="assets/js/core/js.cookie.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
+
 </head>
 <body>
+
+<div id="page-container" class="sidebar-r sidebar-mini sidebar-o side-scroll header-navbar-fixed header-navbar-transparent">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <!-- Sidebar Scroll Container -->
+        <div id="sidebar-scroll">
+            <!-- Sidebar Content -->
+            <!-- Adding .sidebar-mini-hide to an element will hide it when the sidebar is in mini mode -->
+            <div class="sidebar-content">
+                <!-- Side Header -->
+                <div class="side-header side-content">
+
+                    <!--사이드 바 CLOSE -->
+                    <button class="btn btn-link text-gray pull-right visible-xs visible-sm" type="button" data-toggle="layout" data-action="sidebar_close">
+                        <i class="fa fa-times"></i>
+                    </button>
+
+
+
+                </div>
+                <!-- END Side Header -->
+
+                <!-- Side Content -->
+                <div class="side-content">
+                    <ul class="nav-main">
+                        <li class="open">
+                            <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-home"></i><span class="sidebar-mini-hide">Home</span></a>
+                            <ul>
+                                <li>
+                                    <a class="active" href="frontend_home.html">Default Navigation</a>
+                                </li>
+                                <li>
+                                    <a href="frontend_home_header_nav.html">Header Navigation</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="frontend_features.html"><i class="si si-energy"></i><span class="sidebar-mini-hide">Features</span></a>
+                        </li>
+                        <li>
+                            <a href="frontend_pricing.html"><i class="si si-wallet"></i><span class="sidebar-mini-hide">Pricing</span></a>
+                        </li>
+                        <li>
+                            <a href="frontend_contact.html"><i class="si si-envelope-open"></i><span class="sidebar-mini-hide">Contact</span></a>
+                        </li>
+                        <li>
+                            <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-book-open"></i><span class="sidebar-mini-hide">Pages</span></a>
+                            <ul>
+                                <li>
+                                    <a href="frontend_team.html">Team</a>
+                                </li>
+                                <li>
+                                    <a href="frontend_support.html">Support</a>
+                                </li>
+                                <li>
+                                    <a href="frontend_search.html">Search</a>
+                                </li>
+                                <li>
+                                    <a href="frontend_about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="frontend_login.html">Log In</a>
+                                </li>
+                                <li>
+                                    <a href="frontend_signup.html">Sign Up</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i class="si si-pencil"></i><span class="sidebar-mini-hide">Blog</span></a>
+                            <ul>
+                                <li>
+                                    <a href="frontend_blog_classic.html">Classic</a>
+                                </li>
+                                <li>
+                                    <a href="frontend_blog_list.html">List</a>
+                                </li>
+                                <li>
+                                    <a href="frontend_blog_grid.html">Grid</a>
+                                </li>
+                                <li>
+                                    <a href="frontend_blog_story.html">Story</a>
+                                </li>
+                                <li>
+                                    <a href="frontend_blog_story_cover.html">Story Cover</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-heading"><span class="sidebar-mini-hide">Apps</span></li>
+                        <li>
+                            <a href="index.html"><i class="si si-speedometer"></i><span class="sidebar-mini-hide">Backend</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END Side Content -->
+            </div>
+            <!-- Sidebar Content -->
+        </div>
+        <!-- END Sidebar Scroll Container -->
+    </nav>
+    <!-- END Sidebar -->
+
+    <!-- 상단 -->
+    <header id="header-navbar" class="content-mini content-mini-full hidden-md hidden-lg">
+        <div class="content-boxed">
+            <!-- 상단 우측 네비게이션 -->
+            <ul class="nav-header pull-right">
+                <li>
+                    <!-- 메뉴 버튼 -->
+                    <button class="btn btn-link text-white pull-right" type="button" data-toggle="layout" data-action="sidebar_open">
+                        <i class="fa fa-navicon"></i>
+                    </button>
+                </li>
+            </ul>
+            <!-- 상단 우측 네비게이션 끝 -->
+
+            <!-- 상단 좌측 네비게이션 -->
+            <ul class="nav-header pull-left">
+                <li class="header-content">
+                    <a class="h5" href="frontend_home.html">
+                        <i class="fa fa-circle-o-notch text-primary"></i> <span class="h4 font-w600 text-white">ne</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- 상단 좌측 네비게이션 끝 -->
+        </div>
+    </header>
+    <!-- 상단 끝 -->
+
+    <!-- 메인 내용 -->
+    <main id="main-container">
+        <!-- Hero Content -->
+        <div class="bg-image" style="background-image: url('assets/img/various/hero1.jpg');">
+            <div class="bg-primary-dark-op">
+                <section class="content content-full content-boxed overflow-hidden">
+                </section>
+            </div>
+        </div>
+        <!-- END Hero Content -->
+
+        <!-- Classic Features #1 -->
+        <div class="bg-white">
+
+        </div>
+        <!-- END Classic Features #1 -->
+
+
+
+
+    </main>
+    <!-- END Main Container -->
+
+    <!-- 하단 -->
+    <footer id="page-footer" class="bg-footer">
+        <div class="row">
+            <!-- 카피라이터 Info -->
+            <div class="push-20-t push-20 clearfix">
+                <h6 class="col-xs-12 text-white text-center">국내최초, 특허받은 전화영어수업 - 라이브잉글리시클래스</h6>
+
+                <div class="col-xs-12 text-center text-white">
+                    Q & A | 대표번호 : 070-4656-7465 | 이용약관 | PC 버전 보기
+                </div>
+
+            </div>
+            <!-- 카피라이터 Info 끝 -->
+        </div>
+    </footer>
+    <!-- 하단 -->
+</div>
+<!-- 페이지 END -->
+
+
+
 
 </body>
 </html>
