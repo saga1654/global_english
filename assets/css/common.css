@@ -503,6 +503,11 @@ button.text-gray-darker:focus {
 .text-gray-light {
   color: #f3f3f3;
 }
+
+.text-blue-light {
+  color: #179ad7;
+}
+
 a.text-gray-light:hover,
 a.text-gray-light:active,
 a.text-gray-light:focus,
