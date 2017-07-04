@@ -6797,6 +6797,12 @@ a.block.block-link-hover3:active {
 .push-20-l {
   margin-left: 20px !important;
 }
+
+.push-25-t {
+  margin-top: 25px !important;
+}
+
+
 .push-30 {
   margin-bottom: 30px !important;
 }
@@ -6812,6 +6818,12 @@ a.block.block-link-hover3:active {
 .push-50 {
   margin-bottom: 50px !important;
 }
+
+.push-40-t {
+  margin-top: 40px !important;
+}
+
+
 .push-50-t {
   margin-top: 50px !important;
 }
@@ -10925,4 +10937,27 @@ div.tagsinput span.tag a:hover {
 }
 .placeholder {
   color: #aaa;
+}
+
+
+.swiper-container {
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
