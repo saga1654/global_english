@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if IE 9]>         <html class="ie9 no-focus"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-focus"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <title>회원가입</title>
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" id="css-main" href="assets/css/common.css">
+    <link rel="stylesheet" id="css-member" href="assets/css/member.css">
+
+    <script src="assets/js/core/jquery.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+    <script src="assets/js/core/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/core/jquery.scrollLock.min.js"></script>
+    <script src="assets/js/core/jquery.appear.min.js"></script>
+    <script src="assets/js/core/jquery.countTo.min.js"></script>
+    <script src="assets/js/core/jquery.placeholder.min.js"></script>
+    <script src="assets/js/core/js.cookie.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</head>
+<body>
+
+<div class="login_page">
+    <div class="block-header text-center">
+        <h3 class="block-title"><img src="img/header_logo.gif" width="50%"></h3>
+        <h5>라이브잉글리시클래스</h5>
+    </div>
+    <div class="form">
+        <form>
+            <div class="col-md-12">
+                <div class="help-block text-left">필수 입력 항목</div>
+                <input class="form-control input-lg" type="email" id="email-input" name="email-input" placeholder="아이디(이메일)">
+            </div>
+            <div class="col-md-12">
+                <input class="form-control input-lg" type="password" id="password-input" name="password-input" placeholder="비밀빈호">
+            </div>
+            <div class="col-md-12">
+                <input class="form-control input-lg" type="password" id="password-check" name="password-check" placeholder="비밀빈호 확인">
+            </div>
+            <div class="col-md-12">
+                <input class="form-control input-lg" type="text" id="" name="" placeholder="한글이름">
+            </div>
+            <div class="col-md-12">
+                <input class="form-control input-lg" type="text" id="" name="" placeholder="영어이름">
+            </div>
+            <div class="col-md-12">
+                <input class="form-control input-lg" type="text" id="" name="" placeholder="연락처(전화번호 입력시 지역번호 포함)">
+            </div>
+            <div class="col-md-12">
+                <select class="form-control" id="select1" name="select1">
+                    <option value="0">국적</option>
+                    <option value="korea">korea</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <select class="form-control" id="select2" name="select2">
+                    <option value="0">Asia/Seoul (UTC/GMT +09:00)</option>
+                    <option value="">TimeZone</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <div class="help-block text-left">선택 항목</div>
+                <input class="form-control input-lg" type="date" id="birth-input" name="birth-input" placeholder="yyyy-mm-dd">
+            </div>
+            <div class="col-md-12 text-left">
+                <label class="css-input css-radio css-radio-info push-10-r" for="radio1"><input type="radio" id="radio1" name="radio1" value="option1"> <span></span>남성</label>
+                <label class="css-input css-radio css-radio-info push-10-r" for="radio2"><input type="radio" id="radio2" name="radio2" value="option2"> <span></span>여성</label>
+            </div>
+            <div class="col-md-12">
+                <input class="form-control input-lg" type="text" id="skypeId" name="skypeId" placeholder="스카이프 ID (스카이프 수업을 원할 경우 입력)">
+            </div>
+            <div class="col-md-12">
+                <input class="form-control input-lg" type="text" id="MD" name="MD" placeholder="마케터">
+            </div>
+            <div class="col-md-12">
+                <textarea class="form-control" id="textarea-input" name="textarea-input" rows="6" placeholder="전하고 싶은 말."></textarea>
+            </div>
+            <div class="col-md-12">
+                <label class="css-input css-checkbox css-checkbox-sm css-checkbox-primary"><input type="checkbox" checked><span></span><a href="member_terms.html" target="_blank">이용약관</a>에 동의합니다.</label>
+            </div>
+            <div class="col-md-12">
+                <button class="btn btn-lg btn-block btn-primary">동의하고 가입하기</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="footer"><p class="message">이미 회원이세요? <a href="member_login.html">로그인</a></p></div>
+</div>
+
+</body>
+</html>
