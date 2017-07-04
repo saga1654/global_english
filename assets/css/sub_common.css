@@ -2,3 +2,7 @@
 .border_gray .img { padding-top:10px; }
 .border_gray .title { color:#005897; padding:20px 50px 20px 0px; }
 .border_gray .contents { padding-bottom:20px; }
+
+.mypage_border_gray { border:1px solid #bbbcbe; background-color:#fff; opacity : 0.8; filter: alpha(opacity=80);  -moz-opacity:0.8;  -khtml-opacity: 0.8; min-height:200px; }
+.mypage_border_gray .title { opacity : 1; filter: alpha(opacity=100);  -moz-opacity:1;  -khtml-opacity: 1; color:#000; }
+.mypage_border_gray .contents { color:#006199; min-height:60px; }
