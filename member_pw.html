@@ -28,7 +28,7 @@
 </head>
 <body>
 <header id="header-navbar">
-    <div class="row bg-white" id="pw_box" style="padding:20px 20px 0px 30px;">
+    <div class="row bg-white" style="padding:20px 20px 0px 30px;">
         <div class="col-xs-12 text-center">
             <h3>비밀번호 찾기</h3>
         </div>
@@ -43,27 +43,44 @@
             <img src="img/sub_open_btn.gif" width="20">
         </div>
     </div>
+    <div class="row bg-primary push-10-t" style="height:1px;">
+    </div>
 </header>
-<div class="pw_page">
-    <div class="pw_form">
+        <div class="row push-100-t push-100">
         <form>
-            <h1>비밀번호를 잊으셨나요?</h1>
-            <div class="col-md-12">
+            <div class="col-xs-12 push-20-l">
+            <h3 class="text-primary">비밀번호를 잊으셨나요?</h3>
+            </div>
+            <div class="col-xs-12" style="padding:10px 30px 10px 30px;">
                 <input class="form-control input-lg" type="email" id="email-input" name="email-input" placeholder="회원 가입시 입력한 이메일 주소">
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 push-10-t">
                 <div class="col-xs-6"><button class="btn btn-default btn-block"> 취소 </button></div>
                 <div class="col-xs-6"><button class="btn btn-primary btn-block"> 발송 </button></div>
             </div>
             <div class="clear"></div>
         </form>
-    </div>
-    <div id="footer">
-        <p class="message">확인 메일을 아직 못 받으셨나요</p>
-        <p class="message">로그인 또는 회원 가입 해주세요.</p>
-        <p class="message2"><a href="member_login.html">로그인</a> | <a href="member_sign_up.html">회원가입</a></p>
-    </div>
-</div>
+        </div>
+
+        <div class="row bg-primary push-30-t" style="height:1px;">
+        </div>
+
+        <div class="row push-30-t">
+            <div class="col-xs-12 text-center push-10">
+                <h4>확인 메일을 아직 못 받으셨나요</h4>
+            </div>
+
+            <div class="col-xs-12 text-center push-10">
+                <h4>로그인 또는 회원 가입 해주세요.</h4>
+            </div>
+
+
+
+            <div class="col-xs-12 text-center push-30-t">
+                <a class="btn btn-default">로그인</a> <a href="member_sign_up.html" class="push-10-l btn btn-default">회원가입</a>
+            </div>
+        </div>
+
 
 </body>
 </html>
