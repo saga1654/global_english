@@ -4,7 +4,6 @@
  *  Description: UI Framework Custom Functionality (available to all pages)
  *
  */
-
 var App = function() {
     // Helper variables - set in uiInit()
     var $lHtml, $lBody, $lPage, $lSidebar, $lSidebarScroll, $lSideOverlay, $lSideOverlayScroll, $lHeader, $lMain, $lFooter;
@@ -1312,9 +1311,14 @@ jQuery(function(){
     if (typeof angular == 'undefined') {
         App.init();
     }
-});
 
 
-$(function() {
+    $(".sub_open_btn").click(function() {
+        if($(".sub_bg").css("display") == "none") {
+            $(".sub_bg").show();
+        } else {
+            $(".sub_bg").hide();
+        }
 
+    });
 });
