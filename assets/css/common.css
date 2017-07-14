@@ -14,7 +14,7 @@ body {
   background-color: #fffff;
 }
 
-
+ul {list-style:none;}
 .no-focus *:focus {
   outline: 0 !important;
 }
@@ -10993,3 +10993,7 @@ div.tagsinput span.tag a:hover {
 .sub { border-bottom: 1px solid #ccc; cursor: hand; }
 .sub_bg { background-color:#f1f1f1; padding:20px; border-top:1px solid #ccc; }
 .sub_menu { padding:10px 0px 10px 0px; color:#179ad7; font-size:1.2em; }
+
+
+.telephone_course_left { width:49%; margin-top:10px; padding:10px; float:left; border:1px solid #a09f9b; margin-top:10px; }
+.telephone_course_right { width:49%; margin-top:10px; padding:10px; float:right; border:1px solid #a09f9b; margin-top:10px; }
